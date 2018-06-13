@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TestWeather</string>
+
+    <string name="choose_town">Выберите город</string>
+    <string name="delete_town">Удалить город из списка</string>
+    <string name="confirm_delete">Вы уверены в том, что хотит удалить запись?</string>
+    <string name="town_was_added">Город уже добавлен</string>
+
+    <string name="Ok">Ok</string>
+    <string name="Cancel">Cancel</string>
+</resources>

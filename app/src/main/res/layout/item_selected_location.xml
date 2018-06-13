@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="4dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_location_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Town"
+            android:textSize="40sp" />
+
+        <ImageView
+            android:id="@+id/iv_Image"
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:background="@drawable/selected_location"
+            android:padding="16dp"
+            android:src="@drawable/ic_florist" />
+
+        <TextView
+            android:id="@+id/tv_temp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginStart="@+id/tv_location_name"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="... "
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tv_first_day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="..."
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv_second_day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="..."
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv_third_day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="..."
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

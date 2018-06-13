@@ -1,0 +1,20 @@
+[
+  {
+    "_id": 524894,
+    "name": "Moskva",
+    "country": "RU",
+    "coord": {
+      "lon": 37.606667,
+      "lat": 55.761665
+    }
+  },
+  {
+    "_id": 536203,
+    "name": "Sankt-Peterburg",
+    "country": "RU",
+    "coord": {
+      "lon": 30.25,
+      "lat": 59.916668
+    }
+  }
+]
